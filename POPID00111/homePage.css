@@ -1,0 +1,63 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+.top{
+    height: 10vh;
+    width: 100%;
+    background-color: beige;
+    color: rgb(156, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sider{
+    height: 90vh;
+    width: 10%;
+    background-color:beige;
+    color: rgb(156, 60, 60) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    float: left;
+}
+
+h2{
+    margin: 0;
+    font-size: 20px;
+}
+
+.main1{
+    height: 90vh;
+    width: 90%;
+    background-color: rgb(115, 176, 180);
+    color: rgb(37, 80, 97);
+    display: flex;
+    flex-direction: column;
+    float: left;
+    font-family: serif;
+
+}
+
+/* Style for the container div */
+.imgcnt {
+    width: 100%; /* or any specific width */
+    height: 300px; /* or any specific height */
+    overflow: hidden; /* Hide overflow */
+    display: flex;
+    justify-content:left ; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative;
+}
+
+/* Style for the image */
+.imgcnt img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Scale the image to cover the container */
+    display: block; /* Remove extra space below the image */
+    margin-top: 10px;
+}

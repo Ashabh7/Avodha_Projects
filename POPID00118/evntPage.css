@@ -1,0 +1,54 @@
+body{
+    background-image: url(./Assets/48273027250967920.jpg);
+    background-position: center;
+    background-size: cover;    
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    color: beige;
+}
+
+.top{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tp3{
+    display: flex;
+}
+
+.main1{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btm{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+    
+}
+
+h1{
+    
+    margin: 50px;
+}
+
+button{
+    border-radius: 30px;
+    background-color: transparent;
+    color: beige;
+    margin-top: 50px;  
+}

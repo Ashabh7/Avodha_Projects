@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+  background-image: url(./Assets/Gargantua\ Black\ Hole\ -\ Interstellar.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  color: rgb(46, 107, 92);
+}
+
+.top {
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+.left {
+  height: 100vh;
+  width: 50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  height: 100vh;
+  width: 50%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.srch {
+  background-color: coral;
+  border-radius: 10px;
+  color: beige;
+  padding: 5px;
+}
+
+.icn {
+  height: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  float: left;
+  margin-left: 30px;
+}
+
+.icn2 {
+  height: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+button {
+  border-radius: 10px;
+  background-color: coral;
+  color: beige;
+}
+
+button{
+    padding: 5px;
+    margin: 15px;
+}
